@@ -1,4 +1,18 @@
+body {
+    background-image: linear-gradient(135deg, #a1c4fd 10%, #c2e9fb 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background-image: linear-gradient(135deg, #FFFEFF 10%, #D7FFFE 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
 .card {
+    background-image: linear-gradient(135deg, #FFFEFF 10%, #D7FFFE 100%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px;
@@ -12,26 +26,16 @@
   padding: 2px 16px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Verdana, sans-serif;
-}
-
 .mySlides {
   display: none;
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -57,7 +61,6 @@ body {
   }
 }
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
     font-size: 11px;
@@ -67,19 +70,28 @@ body {
 .card-img-top {
   margin-left: 40px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-h2 {
+h2,h4 {
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
   text-shadow: 2px 2px 4px #dfdcdc;
 }
 
-.sec1 {
-  width: 50%;
+.card-body {
+    text-align: center;
+    margin-top: 80px;
 }
 
-.sec2 {
-  width: 50%;
-  float: right;
+footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+    background-image: linear-gradient(135deg, #FFFEFF 10%, #D7FFFE 100%);
+	text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
 }
